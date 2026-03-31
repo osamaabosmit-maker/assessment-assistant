@@ -162,7 +162,7 @@ with st.sidebar:
         st.session_state.clear()
         st.rerun()
 
-    app_url = "https://edu-ai-app.streamlit.app"
+    app_url = "https://assessment-assistant-epx8xvyb2pbtv5gnqy6ip4.streamlit.app"
     qr = qrcode.make(app_url)
     buf = io.BytesIO()
     qr.save(buf, format="PNG")
